@@ -81,6 +81,15 @@ form h1 {
   border-radius: 6px;
   transition: border-color 100ms ease-in;
 }
+/* 옵션 선택 했을시 드랍다운 토글에 스타일 */
+.dropdown-toggle.selected {
+  color: #3f4150;
+  border-color: rgba(224, 226, 231, 1);
+}
+/* 마우스를 클릭하는 동안 */
+.dropdown-toggle:active {
+  border-color: rgba(224, 226, 231, 1);
+}
 /* 드랍다운 메뉴 스타일 */
 .dropdown-menu {
   position: absolute;
